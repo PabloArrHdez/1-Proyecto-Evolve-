@@ -30,6 +30,7 @@ def columnas_transform (df_sucio1):
     df_limpio = df_sucio1["anclajes_vacios"] = pd.to_numeric(df_sucio1["anclajes_vacios"], errors="coerce").fillna(0).astype(int)
     df_limpio = df_sucio1["capacidad_estacion"] = (df_sucio1["anclajes_vacios"] + (df_sucio1["bicis_libres"]))
     df_limpio = df_sucio1["tasa_uso"] = (df_sucio1["anclajes_vacios"] / (df_sucio1["capacidad_estacion"]))
+    df_limpio= df_sucio1.dropna(subset=["tasa_uso"])
     df_limpio.to_csv("Datos/bicis_publicas_limpio.csv", index=False)
     return df_limpio
 
