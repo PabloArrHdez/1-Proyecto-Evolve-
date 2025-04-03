@@ -1,0 +1,217 @@
+"ID","Fecha","Ciudad","Pais","Numero","Categoria"
+1,"2025-03-17",London,Reino Unido,8.8,Muy bajo
+2,"2025-03-17",Berlin,Alemania,4.4,Muy bajo
+3,"2025-03-17",Madrid,España,6.6,Muy bajo
+4,"2025-03-17",Barcelona,España,8.8,Muy bajo
+5,"2025-03-17",Bruxelles,Belgica,11.0,Bajo
+6,"2025-03-17",Paris,Francia,,
+7,"2025-03-17",Vienna,Austria,4.4,Muy bajo
+8,"2025-03-17",Oslo,Noruega,6.6,Muy bajo
+9,"2025-03-17",Warsaw,Polonia,6.6,Muy bajo
+10,"2025-03-17",Budapest,Hungría,11.0,Bajo
+11,"2025-03-17",Munich,Alemania,,
+12,"2025-03-17",Prague,República Checa,2.2,Muy bajo
+13,"2025-03-17",Zurich,Suiza,,
+14,"2025-03-17",Stockholm,Suecia,,
+15,"2025-03-17",Amsterdam,Países Bajos,,
+16,"2025-03-17",Helsinki,Finlandia,,
+17,"2025-03-17",Dublin,Irlanda,6.6,Muy bajo
+18,"2025-03-17",Lisbon,Portugal,,
+19,"2025-03-18",London,Reino Unido,13.2,Bajo
+20,"2025-03-18",Berlin,Alemania,6.6,Muy bajo
+21,"2025-03-18",Madrid,España,4.4,Muy bajo
+22,"2025-03-18",Barcelona,España,11.0,Bajo
+23,"2025-03-18",Bruxelles,Belgica,8.8,Muy bajo
+24,"2025-03-18",Paris,Francia,,
+25,"2025-03-18",Vienna,Austria,8.8,Muy bajo
+26,"2025-03-18",Oslo,Noruega,6.6,Muy bajo
+27,"2025-03-18",Warsaw,Polonia,13.2,Bajo
+28,"2025-03-18",Budapest,Hungría,4.4,Muy bajo
+29,"2025-03-18",Munich,Alemania,,
+30,"2025-03-18",Prague,República Checa,4.4,Muy bajo
+31,"2025-03-18",Zurich,Suiza,,
+32,"2025-03-18",Stockholm,Suecia,,
+33,"2025-03-18",Amsterdam,Países Bajos,,
+34,"2025-03-18",Helsinki,Finlandia,,
+35,"2025-03-18",Dublin,Irlanda,15.4,Bajo
+36,"2025-03-18",Lisbon,Portugal,,
+37,"2025-03-19",London,Reino Unido,13.2,Bajo
+38,"2025-03-19",Berlin,Alemania,11.0,Bajo
+39,"2025-03-19",Madrid,España,2.2,Muy bajo
+40,"2025-03-19",Barcelona,España,8.8,Muy bajo
+41,"2025-03-19",Bruxelles,Belgica,6.6,Muy bajo
+42,"2025-03-19",Paris,Francia,,
+43,"2025-03-19",Vienna,Austria,11.0,Bajo
+44,"2025-03-19",Oslo,Noruega,6.6,Muy bajo
+45,"2025-03-19",Warsaw,Polonia,15.4,Bajo
+46,"2025-03-19",Budapest,Hungría,4.4,Muy bajo
+47,"2025-03-19",Munich,Alemania,,
+48,"2025-03-19",Prague,República Checa,4.4,Muy bajo
+49,"2025-03-19",Zurich,Suiza,,
+50,"2025-03-19",Stockholm,Suecia,,
+51,"2025-03-19",Amsterdam,Países Bajos,,
+52,"2025-03-19",Helsinki,Finlandia,,
+53,"2025-03-19",Dublin,Irlanda,24.2,Medio
+54,"2025-03-19",Lisbon,Portugal,,
+55,"2025-03-20",London,Reino Unido,17.6,Bajo
+56,"2025-03-20",Berlin,Alemania,15.4,Bajo
+57,"2025-03-20",Madrid,España,11.0,Bajo
+58,"2025-03-20",Barcelona,España,13.2,Bajo
+59,"2025-03-20",Bruxelles,Belgica,8.8,Muy bajo
+60,"2025-03-20",Paris,Francia,,
+61,"2025-03-20",Vienna,Austria,15.4,Bajo
+62,"2025-03-20",Oslo,Noruega,6.6,Muy bajo
+63,"2025-03-20",Warsaw,Polonia,19.8,Bajo
+64,"2025-03-20",Budapest,Hungría,6.6,Muy bajo
+65,"2025-03-20",Munich,Alemania,,
+66,"2025-03-20",Prague,República Checa,11.0,Bajo
+67,"2025-03-20",Zurich,Suiza,,
+68,"2025-03-20",Stockholm,Suecia,,
+69,"2025-03-20",Amsterdam,Países Bajos,,
+70,"2025-03-20",Helsinki,Finlandia,,
+71,"2025-03-20",Dublin,Irlanda,24.2,Medio
+72,"2025-03-20",Lisbon,Portugal,,
+73,"2025-03-21",London,Reino Unido,22.0,Medio
+74,"2025-03-21",Berlin,Alemania,17.6,Bajo
+75,"2025-03-21",Madrid,España,4.4,Muy bajo
+76,"2025-03-21",Barcelona,España,17.6,Bajo
+77,"2025-03-21",Bruxelles,Belgica,13.2,Bajo
+78,"2025-03-21",Paris,Francia,,
+79,"2025-03-21",Vienna,Austria,17.6,Bajo
+80,"2025-03-21",Oslo,Noruega,6.6,Muy bajo
+81,"2025-03-21",Warsaw,Polonia,22.0,Medio
+82,"2025-03-21",Budapest,Hungría,28.6,Medio
+83,"2025-03-21",Munich,Alemania,,
+84,"2025-03-21",Prague,República Checa,28.6,Medio
+85,"2025-03-21",Zurich,Suiza,,
+86,"2025-03-21",Stockholm,Suecia,,
+87,"2025-03-21",Amsterdam,Países Bajos,,
+88,"2025-03-21",Helsinki,Finlandia,,
+89,"2025-03-21",Dublin,Irlanda,17.6,Bajo
+90,"2025-03-21",Lisbon,Portugal,,
+91,"2025-03-24",London,Reino Unido,28.6,Medio
+92,"2025-03-24",Berlin,Alemania,22.0,Medio
+93,"2025-03-24",Madrid,España,6.6,Muy bajo
+94,"2025-03-24",Barcelona,España,,
+95,"2025-03-24",Bruxelles,Belgica,28.6,Medio
+96,"2025-03-24",Paris,Francia,,
+97,"2025-03-24",Vienna,Austria,8.8,Muy bajo
+98,"2025-03-24",Oslo,Noruega,11.0,Bajo
+99,"2025-03-24",Warsaw,Polonia,17.6,Bajo
+100,"2025-03-24",Budapest,Hungría,11.0,Bajo
+101,"2025-03-24",Munich,Alemania,,
+102,"2025-03-24",Prague,República Checa,19.8,Bajo
+103,"2025-03-24",Zurich,Suiza,,
+104,"2025-03-24",Stockholm,Suecia,,
+105,"2025-03-24",Amsterdam,Países Bajos,,
+106,"2025-03-24",Helsinki,Finlandia,,
+107,"2025-03-24",Dublin,Irlanda,6.6,Muy bajo
+108,"2025-03-24",Lisbon,Portugal,,
+109,"2025-03-25",London,Reino Unido,11.0,Bajo
+110,"2025-03-25",Berlin,Alemania,33.0,Alto
+111,"2025-03-25",Madrid,España,2.2,Muy bajo
+112,"2025-03-25",Barcelona,España,8.8,Muy bajo
+113,"2025-03-25",Bruxelles,Belgica,46.2,Alto
+114,"2025-03-25",Paris,Francia,,
+115,"2025-03-25",Vienna,Austria,22.0,Medio
+116,"2025-03-25",Oslo,Noruega,11.0,Bajo
+117,"2025-03-25",Warsaw,Polonia,28.6,Medio
+118,"2025-03-25",Budapest,Hungría,13.2,Bajo
+119,"2025-03-25",Munich,Alemania,,
+120,"2025-03-25",Prague,República Checa,22.0,Medio
+121,"2025-03-25",Zurich,Suiza,,
+122,"2025-03-25",Stockholm,Suecia,,
+123,"2025-03-25",Amsterdam,Países Bajos,,
+124,"2025-03-25",Helsinki,Finlandia,,
+125,"2025-03-25",Dublin,Irlanda,6.6,Muy bajo
+126,"2025-03-25",Lisbon,Portugal,,
+127,"2025-03-26",London,Reino Unido,8.8,Muy bajo
+128,"2025-03-26",Berlin,Alemania,6.6,Muy bajo
+129,"2025-03-26",Madrid,España,8.8,Muy bajo
+130,"2025-03-26",Barcelona,España,6.6,Muy bajo
+131,"2025-03-26",Bruxelles,Belgica,6.6,Muy bajo
+132,"2025-03-26",Paris,Francia,,
+133,"2025-03-26",Vienna,Austria,17.6,Bajo
+134,"2025-03-26",Oslo,Noruega,4.4,Muy bajo
+135,"2025-03-26",Warsaw,Polonia,39.6,Alto
+136,"2025-03-26",Budapest,Hungría,8.8,Muy bajo
+137,"2025-03-26",Munich,Alemania,,
+138,"2025-03-26",Prague,República Checa,11.0,Bajo
+139,"2025-03-26",Zurich,Suiza,,
+140,"2025-03-26",Stockholm,Suecia,,
+141,"2025-03-26",Amsterdam,Países Bajos,,
+142,"2025-03-26",Helsinki,Finlandia,,
+143,"2025-03-26",Dublin,Irlanda,8.8,Muy bajo
+144,"2025-03-26",Lisbon,Portugal,4.4,Muy bajo
+145,"2025-03-27",London,Reino Unido,11.0,Bajo
+146,"2025-03-27",Berlin,Alemania,15.4,Bajo
+147,"2025-03-27",Madrid,España,6.6,Muy bajo
+148,"2025-03-27",Barcelona,España,11.0,Bajo
+149,"2025-03-27",Bruxelles,Belgica,22.0,Medio
+150,"2025-03-27",Paris,Francia,,
+151,"2025-03-27",Vienna,Austria,6.6,Muy bajo
+152,"2025-03-27",Oslo,Noruega,17.6,Bajo
+153,"2025-03-27",Warsaw,Polonia,13.2,Bajo
+154,"2025-03-27",Budapest,Hungría,15.4,Bajo
+155,"2025-03-27",Munich,Alemania,,
+156,"2025-03-27",Prague,República Checa,6.6,Muy bajo
+157,"2025-03-27",Zurich,Suiza,,
+158,"2025-03-27",Stockholm,Suecia,,
+159,"2025-03-27",Amsterdam,Países Bajos,,
+160,"2025-03-27",Helsinki,Finlandia,,
+161,"2025-03-27",Dublin,Irlanda,4.4,Muy bajo
+162,"2025-03-27",Lisbon,Portugal,4.4,Muy bajo
+163,"2025-03-28",London,Reino Unido,6.6,Muy bajo
+164,"2025-03-28",Berlin,Alemania,11.0,Bajo
+165,"2025-03-28",Madrid,España,4.4,Muy bajo
+166,"2025-03-28",Barcelona,España,,
+167,"2025-03-28",Bruxelles,Belgica,11.0,Bajo
+168,"2025-03-28",Paris,Francia,,
+169,"2025-03-28",Vienna,Austria,22.0,Medio
+170,"2025-03-28",Oslo,Noruega,11.0,Bajo
+171,"2025-03-28",Warsaw,Polonia,8.8,Muy bajo
+172,"2025-03-28",Budapest,Hungría,11.0,Bajo
+173,"2025-03-28",Munich,Alemania,,
+174,"2025-03-28",Prague,República Checa,13.2,Bajo
+175,"2025-03-28",Zurich,Suiza,,
+176,"2025-03-28",Stockholm,Suecia,,
+177,"2025-03-28",Amsterdam,Países Bajos,,
+178,"2025-03-28",Helsinki,Finlandia,,
+179,"2025-03-28",Dublin,Irlanda,6.6,Muy bajo
+180,"2025-03-28",Lisbon,Portugal,4.4,Muy bajo
+181,"2025-03-31",London,Reino Unido,4.4,Muy bajo
+182,"2025-03-31",Berlin,Alemania,11.0,Bajo
+183,"2025-03-31",Madrid,España,6.6,Muy bajo
+184,"2025-03-31",Barcelona,España,,
+185,"2025-03-31",Bruxelles,Belgica,11.0,Bajo
+186,"2025-03-31",Paris,Francia,,
+187,"2025-03-31",Vienna,Austria,2.2,Muy bajo
+188,"2025-03-31",Oslo,Noruega,4.4,Muy bajo
+189,"2025-03-31",Warsaw,Polonia,6.6,Muy bajo
+190,"2025-03-31",Budapest,Hungría,2.2,Muy bajo
+191,"2025-03-31",Munich,Alemania,,
+192,"2025-03-31",Prague,República Checa,4.4,Muy bajo
+193,"2025-03-31",Zurich,Suiza,,
+194,"2025-03-31",Stockholm,Suecia,,
+195,"2025-03-31",Amsterdam,Países Bajos,,
+196,"2025-03-31",Helsinki,Finlandia,,
+197,"2025-03-31",Dublin,Irlanda,8.8,Muy bajo
+198,"2025-03-31",Lisbon,Portugal,4.4,Muy bajo
+199,"2025-04-01",London,Reino Unido,8.8,Muy bajo
+200,"2025-04-01",Berlin,Alemania,6.6,Muy bajo
+201,"2025-04-01",Madrid,España,15.4,Bajo
+202,"2025-04-01",Barcelona,España,6.6,Muy bajo
+203,"2025-04-01",Bruxelles,Belgica,4.4,Muy bajo
+204,"2025-04-01",Paris,Francia,,
+205,"2025-04-01",Vienna,Austria,17.6,Bajo
+206,"2025-04-01",Oslo,Noruega,8.8,Muy bajo
+207,"2025-04-01",Warsaw,Polonia,11.0,Bajo
+208,"2025-04-01",Budapest,Hungría,4.4,Muy bajo
+209,"2025-04-01",Munich,Alemania,,
+210,"2025-04-01",Prague,República Checa,4.4,Muy bajo
+211,"2025-04-01",Zurich,Suiza,,
+212,"2025-04-01",Stockholm,Suecia,,
+213,"2025-04-01",Amsterdam,Países Bajos,,
+214,"2025-04-01",Helsinki,Finlandia,,
+215,"2025-04-01",Dublin,Irlanda,8.8,Muy bajo
+216,"2025-04-01",Lisbon,Portugal,4.4,Muy bajo
