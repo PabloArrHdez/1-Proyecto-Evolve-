@@ -11,8 +11,7 @@ def extraccion_API(cities_of_interest):
     "Madrid", "Barcelona", "Paris", "Berlin", "Amsterdam", 
     "Bruxelles", "Lisbon", "Vienna", "Warsaw", 
     "Budapest", "Stockholm", "Helsinki", "Oslo", "London", "Prague", "Dublin", "Zurich", 
-    "Munich"
-]
+    "Munich"]
     if response.status_code == 200:
         networks = response.json().get("networks", [])
         bike_data = []
