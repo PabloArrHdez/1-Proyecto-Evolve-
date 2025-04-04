@@ -3,8 +3,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
 import statsmodels.api as sm
+import geopandas as gpd
+import folium
+from folium.plugins import HeatMap
+from shapely.geometry import Point
 
 analisis_estad =pd.read_csv("Datos/df_completo.csv")
+geodataframe = gpd.read_file("Datos/bicis_publicas_limpio_geodf_p.csv")
 
 def matriz_correlacion (analisis_estad):
     m_corr = analisis_estad.select_dtypes(include=['float64', 'int64'])
@@ -101,3 +106,27 @@ def grafico_modelo_regresion_madrid(analisis_estad):
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.savefig("modelo_regresion_lineal_madrid.png")
     plt.show();
+
+def mapa_calor_paris(geodataframe):
+    geodataframe = geodataframe.drop(columns=["geometry"])
+    geodataframe['geometry'] = geodataframe.apply(lambda row: Point(row['longitude'], row['latitude']), axis=1)  # Crear la columna 'geometry' a partir de 'latitude' y 'longitude' #
+    geodataframe = gpd.GeoDataFrame(geodataframe, geometry='geometry')  # Convertir el DataFrame en un GeoDataFrame #
+    # Asignar un sistema de referencia de coordenadas (CRS)
+    # Usualmente, las coordenadas de latitud y longitud están en WGS 84 (EPSG:4326)
+    geodataframe.set_crs(epsg=4326, inplace=True)
+    # Filtrar los datos para la ciudad de París
+    paris_data = geodataframe[geodataframe['Ciudad'] == 'Paris']
+    # Extraer latitud y longitud de la columna 'geometry'
+    paris_data['lat'] = paris_data.geometry.y
+    paris_data['lon'] = paris_data.geometry.x
+    paris_data['lat'] = pd.to_numeric(paris_data['lat'], errors='coerce')
+    paris_data['lon'] = pd.to_numeric(paris_data['lon'], errors='coerce')
+    paris_data['tasa_uso'] = pd.to_numeric(paris_data['tasa_uso'], errors='coerce')
+    paris_data = paris_data.dropna(subset=['lat', 'lon', 'tasa_uso'])
+    mapa_paris = folium.Map(location=[paris_data['lat'].mean(), paris_data['lon'].mean()], zoom_start=12)
+    # Preparar los datos para el mapa de calor
+    heat_data = paris_data[['lat', 'lon', 'tasa_uso']].values.tolist()
+    # Agregar el mapa de calor
+    HeatMap(heat_data, radius=15, blur=10, max_zoom=1).add_to(mapa_paris)
+    mapa_paris.save("mapa_calor_paris.html")
+    mapa_paris;
