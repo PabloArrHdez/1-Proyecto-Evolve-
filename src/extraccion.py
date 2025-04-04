@@ -7,6 +7,12 @@ import os
 def extraccion_API(cities_of_interest):
     url = "https://api.citybik.es/v2/networks"
     response = requests.get(url)
+    cities_of_interest = [
+    "Madrid", "Barcelona", "Paris", "Berlin", "Amsterdam", 
+    "Bruxelles", "Lisbon", "Vienna", "Warsaw", 
+    "Budapest", "Stockholm", "Helsinki", "Oslo", "London", "Prague", "Dublin", "Zurich", 
+    "Munich"
+]
     if response.status_code == 200:
         networks = response.json().get("networks", [])
         bike_data = []
