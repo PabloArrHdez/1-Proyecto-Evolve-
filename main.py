@@ -29,7 +29,6 @@ cities_of_interest = [
     "Budapest", "Stockholm", "Helsinki", "Oslo", "London", "Prague", "Dublin", "Zurich", 
     "Munich"]
 df_sucio = pd.read_csv("Datos/bici_publicas_oficial_sucio.csv")
-df_limpio = pd.read_csv("Datos/bicis_publicas_limpio.csv")
 df_aire_sucio = pd.read_csv("Datos/dim_aire_sucio.csv")
 df_poblacion_sucio = pd.read_csv("Datos/dim_poblacion_sucio.csv")
 analisis_estad =pd.read_csv("Datos/df_completo.csv")
