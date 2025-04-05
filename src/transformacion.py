@@ -10,9 +10,12 @@ df_aire_sucio = pd.read_csv("Datos/dim_aire_sucio.csv")
 df_poblacion_sucio = pd.read_csv("Datos/dim_poblacion_sucio.csv")
 
 def filas_delete (df_sucio):
+    df_sucio["empty_slots"] = df_sucio["empty_slots"].astype(str).str.strip()
+    df_sucio["empty_slots"] = pd.to_numeric(df_sucio["empty_slots"], errors="coerce")
+    df_sucio["empty_slots"] = pd.to_numeric(df_sucio["empty_slots"], errors="coerce")
     lista_columnas = df_sucio.columns.tolist()
     df_sucio1 = df_sucio[~df_sucio.apply(lambda row: row.tolist() == lista_columnas, axis=1)]
-    df_sucio1 = df_sucio[df_sucio["empty_slots"] >= 0.0]
+    df_sucio1 = df_sucio[df_sucio["empty_slots"].notna() & (df_sucio["empty_slots"] >= 0.0)]
     return df_sucio1
 
 def columnas_transform (df_sucio1):
