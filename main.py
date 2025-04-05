@@ -28,7 +28,19 @@ cities_of_interest = [
     "Bruxelles", "Lisbon", "Vienna", "Warsaw", 
     "Budapest", "Stockholm", "Helsinki", "Oslo", "London", "Prague", "Dublin", "Zurich", 
     "Munich"]
+nuevos_nombres = {
+    "name": "empresa",
+    "id": "id_empresa",
+    "city": "ciudad",
+    "country": "pais",
+    "free_bikes": "bicis_libres",
+    "empty_slots": "anclajes_vacios",
+    "extraction_date": "fecha"
+    }
 df_sucio = pd.read_csv("Datos/bici_publicas_oficial_sucio.csv")
+lista_columnas = df_sucio.columns.tolist()
+df_sucio1 = df_sucio[~df_sucio.apply(lambda row: row.tolist() == lista_columnas, axis=1)]
+df_limpio = df_sucio1.rename(columns=nuevos_nombres, inplace=True)
 df_aire_sucio = pd.read_csv("Datos/dim_aire_sucio.csv")
 df_poblacion_sucio = pd.read_csv("Datos/dim_poblacion_sucio.csv")
 analisis_estad =pd.read_csv("Datos/df_completo.csv")
