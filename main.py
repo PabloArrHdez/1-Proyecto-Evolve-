@@ -59,5 +59,6 @@ if __name__ == "__main__":
     vsz.grafico_distribcion_londres(analisis_estad)
     vsz.grafico_distribucion_barcelona(analisis_estad)
     vsz.grafico_distribucion_oslo(analisis_estad)
+    vsz.grafico_distribucion_bruselas(analisis_estad)
     vsz.grafico_modelo_regresion_madrid(analisis_estad)
     vsz.mapa_calor_paris(geodataframe)

@@ -83,6 +83,27 @@ def grafico_distribucion_oslo(analisis_estad):
     plt.savefig("Imagenes/distribucion_bicicletas_oslo.png")
     plt.show();
 
+def grafico_distribucion_bruselas(analisis_estad):
+    analisis_bruselas = analisis_estad[analisis_estad['Ciudad'] == 'Bruxelles']
+    media = analisis_bruselas['bicis_libres'].mean()
+    mediana = analisis_bruselas['bicis_libres'].median()
+    moda = stats.mode(analisis_bruselas['bicis_libres'], keepdims=True)[0][0]
+    desviacion_tipica = analisis_bruselas['bicis_libres'].std()
+    plt.figure(figsize=(12, 6))
+    sns.histplot(analisis_bruselas, x='bicis_libres', kde=True, bins=30, color='skyblue', label='Distribución')
+    plt.axvline(media, color='red', linestyle='--', linewidth=1.5, label=f'Media: {media:.2f}')
+    plt.axvline(mediana, color='green', linestyle='-', linewidth=1.5, label=f'Mediana: {mediana:.2f}')
+    plt.axvline(moda, color='purple', linestyle='-.', linewidth=1.5, label=f'Moda: {moda:.2f}')
+    plt.axvline(media + desviacion_tipica, color='orange', linestyle='--', linewidth=1.5, label=f'+1 Desv. Típica: {media + desviacion_tipica:.2f}')
+    plt.axvline(media - desviacion_tipica, color='orange', linestyle='--', linewidth=1.5, label=f'-1 Desv. Típica: {media - desviacion_tipica:.2f}')
+    plt.title('Distribución disponibilidad de bicicletas en Bruselas', fontsize=16)
+    plt.xlabel('Disponibilidad', fontsize=12)
+    plt.ylabel('Frecuencia', fontsize=12)
+    plt.legend()
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.savefig("Imagenes/distribucion_bicicletas_bruselas.png")
+    plt.show();
+
 def grafico_modelo_regresion_madrid(analisis_estad):
     df_madrid = analisis_estad[analisis_estad['Ciudad'] == 'Madrid']
     X = df_madrid['tasa_uso']
