@@ -33,7 +33,7 @@ Este proyecto de datos se centra en el uso de las bicicletas públicas que exist
 
 ## Hipótesis
 
-1. The Luxury Fashion industry is evolving "The classics either modernize or dacay, and so it demostrates in their actual rankings.
+1. ¿Cuál es el nivel de correlación en cada una de las variables?
 
 2. What factors are involved in achieving a higher ranking position?
 
