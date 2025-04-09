@@ -35,24 +35,23 @@ Este proyecto de datos se centra en el uso de las bicicletas públicas que exist
 
 1. ¿Cuál es el nivel de correlación en cada una de las variables?
 
-2. What factors are involved in achieving a higher ranking position?
+2. ¿Cómo es la distribución de disponibilidad de bicicletas en ciudades como Londres, Barcelona, Oslo y, Bruselas? Ciudades con diferencias culturales y geográficas. 
 
-3. In our actual times Fashion runways are less of a necessity for exposure but a lifestyle event. 
+3. Basándose en una correlación alta entre la tasa de uso y el número de bicicletas disponibles, ¿cómo es el modelo de regresión lineal de la capital de España?
+
+4. ¿Cuáles son las estaciones con mayor tasa de uso en la ciudad de París?
 
 ## Análisis
 
 
-From 3 different datasets, and 3 lists. Created the final dataset on which to work.
+A partir de los conjuntos de datos diferentes. Creación del conjunto de datos final sobre el que trabajar.
 
-Composition of the final dataset:
+Composición del dataset final:
 
-- 27 Rows, 29 columns.
-- Information in the columns:
-    Name of the Brand, Rankings, Equity, Web Visibility, Sentiment (Popularity), Market  Capitalize and participation in the NYFW, MFW, PFW
+- 247.905 Filas, 12 columnas.
+- Información en las columnas:
+    empresa, id_empresa, ciudad, pais, bicis_libres, anclajes_vacios, latitude, longitude, fecha, capacidad_estacion, tasa_uso, geometry
 
-On a first glance we can already see some changed in the values over the years.
-
-Let's get more into detail on the results of the data.
 
 
 ## Resultados
