@@ -70,7 +70,7 @@ Vamos a ver el modelo de regresión lineal de las variables anteriormente dichas
 
 2. ¿Es diferente la distribución de bicicletas públicas libres en las ciudades europeas, o se comporta igual?
 
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/sentiment_10.png?raw=true)
+![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/sentiment_10.png?raw=true) ###### CONTINUA AQUI #########
 
 Apparently the only one that would make sense is Hermes, the rest of them doesn't seem to be that influenced by the Sentiment.
 
