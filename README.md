@@ -2,6 +2,8 @@
 ## Período de análisis
 El período de análisis está comprendido entre el 17 de marzo y el 1 de abril del 2025. Concretamente en dos horas exactas, las ocho y media de la mañana y las cinco y media de la tarde.
 
+### Introducción
+
 
 
 
