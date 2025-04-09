@@ -37,16 +37,17 @@ nuevos_nombres = {
     "empty_slots": "anclajes_vacios",
     "extraction_date": "fecha"
     }
-df_sucio = pd.read_csv("Datos/bici_publicas_oficial_sucio.csv")
-lista_columnas = df_sucio.columns.tolist()
-df_sucio1 = df_sucio[~df_sucio.apply(lambda row: row.tolist() == lista_columnas, axis=1)]
-df_limpio = df_sucio1.rename(columns=nuevos_nombres)
-df_aire_sucio = pd.read_csv("Datos/dim_aire_sucio.csv")
-df_poblacion_sucio = pd.read_csv("Datos/dim_poblacion_sucio.csv")
-analisis_estad =pd.read_csv("Datos/df_completo.csv")
-geodataframe = gpd.read_file("Datos/bicis_publicas_limpio_geodf_p.csv")
 
 if __name__ == "__main__":
+    df_sucio = pd.read_csv("Datos/bici_publicas_oficial_sucio.csv")
+    lista_columnas = df_sucio.columns.tolist()
+    df_sucio1 = df_sucio[~df_sucio.apply(lambda row: row.tolist() == lista_columnas, axis=1)]
+    df_limpio = df_sucio1.rename(columns=nuevos_nombres)
+    df_aire_sucio = pd.read_csv("Datos/dim_aire_sucio.csv")
+    df_poblacion_sucio = pd.read_csv("Datos/dim_poblacion_sucio.csv")
+    analisis_estad =pd.read_csv("Datos/df_completo.csv")
+    geodataframe = gpd.read_file("Datos/bicis_publicas_limpio_geodf_p.csv")
+
     ext.extraccion_API(cities_of_interest)
     trs.filas_delete(df_sucio)
     trs.columnas_transform(df_sucio1)
