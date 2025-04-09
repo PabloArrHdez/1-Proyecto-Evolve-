@@ -56,19 +56,19 @@ Composición del dataset final:
 
 ## Resultados
 
-1. Top 5 brands in 2023.
+1. Correlación de variables numéricas.
 
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/rank_5.png?raw=true)
+![image](Imagenes/matriz_correlacion.png)
 
-    ''' Why is Dior not in here? And Prada? What's going on? What's happenin'? '''
+    Indicador medianamente alto entre tasa de uso "tasa_uso" y bicicletas disponibles "bicis_libres"
     
-Let's see the Top 10
+Vamos a ver el modelo de regresión lineal de las variables anteriormente dichas en la ciudad de Madrid
 
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/rank_10.png?raw=true)
+![image](Imagenes/modelo_regresion_lineal_madrid.png)
 
 
 
-2. Why are they organized like in stairs? Does it have to do with the sentiment?
+2. ¿Es diferente la distribución de bicicletas públicas libres en las ciudades europeas, o se comporta igual?
 
 ![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/sentiment_10.png?raw=true)
 
