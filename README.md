@@ -108,8 +108,8 @@ Dentro del mapa generado de la ciudad metropolitana de París, se observa que la
 
 ## Conclusiones
 
-As we see in the data, evolution stops for no one. While there are some brands that kept track of innovation and thus uppered their rank, there are other brands for example Dior, that decided to stay with the classics, and even though their decacy it's not super noticable it still follows a descending pattern. 
+Como vemos en los datos, hay propensión en usar otro tipo de vehículos móviles para desplazarse por las ciudades europeas.
 
-An that is mostly because of the focuse each brand gives to visibility, user popularity, and introducing and adapting the brand strategies with the new technologies.
+Esto se debe a la voluntad de los ciudadanos a usarlo, con unas tasas de uso y bicicletas disponibles más que positivas en la plena mayoría de ciudades analizadas.
 
-We also can prove that Runways nowadays are ysed as a lifestyle event and are not a necessity to gain visibility or popularity. As if they were, the lower ranked brands would be participating in the maximum number possible of shows. And our data shows otherwise.
+Con voluntad por parte de otros actores que participan en la vida cotidiana de una ciudad en infraestructura vial, se puede mejorar mucho la habitabilidad. 
