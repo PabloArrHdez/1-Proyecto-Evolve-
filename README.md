@@ -92,9 +92,9 @@ Veamos:
 
 ![image](Imagenes/distribucion_bicicletas_bruselas.png)
 
-A we can see from the plots, It may have something to do with a mix of the visibility and the Sentiment. For example, Hermes is the most liked brand, and because of that he does'nt need the visibility to be that high. So web visibility is 60 and they only went to Paris Fashion Week. 
+Como podemos ver en los gráficos de las ciudades señaladas, salvo Bruselas, la distribución de las bicicletas disponibles para su uso se comporta de una forma exponencial. La mayor frecuencia de disponibilidad de bicicletas es cero y a medida que van aumentando el número de bicicletas disponibles, la frecuencia disminuye, con medias en torno al 4 y casi 12 bicicletas públicas  disponibles durante la franja de tiempo de estudio. 
 
-But Luis Vuitton as his Sentiment is not that high, they tried to compensate by going to 2 Fashion Weeks as a strategy to augment visibility and thus the sentiment. (CAMBIAR...............)
+Pero Bruselas, a diferencia del resto de ciudades, los resultados obtenidos muestran un comportamiento un tanto de distribución normal, donde la mayor frecuencia de bicicletas disponibles está entre 9 y 10 bicicletas en todo el periodo de tiempo de estudio. Comparte también prácticamente la media con la moda, diferencia de 1 bicicleta. 
 
 
 3. Has it always been like this?
