@@ -97,12 +97,12 @@ Como podemos ver en los gráficos de las ciudades señaladas, salvo Bruselas, la
 Pero Bruselas, a diferencia del resto de ciudades, los resultados obtenidos muestran un comportamiento un tanto de distribución normal, donde la mayor frecuencia de bicicletas disponibles está entre 9 y 10 bicicletas en todo el periodo de tiempo de estudio. Comparte también prácticamente la media con la moda, diferencia de 1 bicicleta. 
 
 
-3. Has it always been like this?
+3. ¿Cuáles son las estaciones más utilizadas por los parisinos y demás habitantes?
 
 
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/top_2017.png?raw=true)
+![html](Imagenes/mapa_calor_paris.html)
 
-As we can see in the plot in the previous years the ranks were quite different. For starters, Hermes was thelower one from the top 5. We can also see the start of the decadency of Dior, from that graphic we could predict the position in the rank he's in 2023.
+Dentro del mapa generado de la ciudad metropolitana de París, se observa que la estaciones más usadas  son las más próximas a monumentos importantes y céntricos. Esto puede  deberse a que las bicis, a través de bonos diarios, pueden usarla más los turistas que los propios parisinos. Un análisis más acertado sería ver como es la demanda de bicicletas privadas en la ciudad y ver si ha aumentado o disminuido, o ver la cantidad de inscripciones al servicio de bicicletas públicas ¿Hay más número de bonos diarios que bonos mensuales? Eso nos puede dar pistas sobre como se comporta la población local de la capital de Francia. 
 
 
 
