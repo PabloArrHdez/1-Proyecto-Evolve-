@@ -70,22 +70,27 @@ Vamos a ver el modelo de regresión lineal de las variables anteriormente dichas
 
 2. ¿Es diferente la distribución de bicicletas públicas libres en las ciudades europeas, o se comporta igual?
 
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/sentiment_10.png?raw=true) ###### CONTINUA AQUI #########
+![image](Imagenes/distribucion_bicicletas_londres.png) 
 
-Apparently the only one that would make sense is Hermes, the rest of them doesn't seem to be that influenced by the Sentiment.
+Aparentemente, en Londres, ciudad más habitada de Europa, el comportamiento de las bicis disponibles a lo largo de los días de análisis es exponencial. 
 
-Maybe it has to do with visibility either on the web or runways.
+¿Y las demás ciudades?
 
-Let's see: 
+Veamos: 
 
-    - Web visibility
+    - Barcelona
 
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/web_visibility_10.png?raw=true)
+![image](Imagenes/distribucion_bicicletas_barcelona.png)
 
 
-    - Runway visibility
+    - Oslo
 
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/runway_10.png?raw=true)
+![image](Imagenes/distribucion_bicicletas_oslo.png)
+
+
+    - Bruselas
+
+![image](Imagenes/distribucion_bicicletas_bruselas.png)
 
 A we can see from the plots, It may have something to do with a mix of the visibility and the Sentiment. For example, Hermes is the most liked brand, and because of that he does'nt need the visibility to be that high. So web visibility is 60 and they only went to Paris Fashion Week. 
 
@@ -100,19 +105,6 @@ But Luis Vuitton as his Sentiment is not that high, they tried to compensate by 
 As we can see in the plot in the previous years the ranks were quite different. For starters, Hermes was thelower one from the top 5. We can also see the start of the decadency of Dior, from that graphic we could predict the position in the rank he's in 2023.
 
 
-4. Does the equity get affected by the rank?
-
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/eq_2017.png?raw=true)
-
-We can see that obviously Equity doesn't get affected by rank. Maybe it has something to do with the way the company workaraounds is built. But what we can assume for sure is that there are some companies more rentable than others as they are less depending on the rank or the sentiment. For example Luis Vuitton. It's not even in the top 5 rank from 2017 to 2021 an it's the one with more equity.
-
-5. Do the lower ranked brands try to gain visibility and position by participating in runways?
-
-![image](https://github.com/emmacunill/luxury-fashion/blob/main/figures/runway_10_tail.png?raw=true)
-
-We can see that all of them participate in at least 1 show. But only a few participate in more than one. That could be because of many factors, maybe they can't access to the big runaways shows, although what makes more sense is that they just don't participates. As in all Fashion weeks, those luxury brands have already a presaved spot.
-
-
 
 ## Conclusiones
 
@@ -121,12 +113,3 @@ As we see in the data, evolution stops for no one. While there are some brands t
 An that is mostly because of the focuse each brand gives to visibility, user popularity, and introducing and adapting the brand strategies with the new technologies.
 
 We also can prove that Runways nowadays are ysed as a lifestyle event and are not a necessity to gain visibility or popularity. As if they were, the lower ranked brands would be participating in the maximum number possible of shows. And our data shows otherwise.
-
-
-## Links de interes
-
-[Brand Watch Index]("https://www.brandwatch.com/wp-content/uploads/2020/01/LuxFashion-Q42019.csv?rev=1698422964802")
-
-[Fashion United]("https://fashionunited.com/i/top200")
-
-[Canva Presentation]("https://www.canva.com/design/DAFywJ8Gbjo/z30AT2x216v3prputMbcuw/edit?utm_content=DAFywJ8Gbjo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton")
