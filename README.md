@@ -94,7 +94,7 @@ Veamos:
 
 A we can see from the plots, It may have something to do with a mix of the visibility and the Sentiment. For example, Hermes is the most liked brand, and because of that he does'nt need the visibility to be that high. So web visibility is 60 and they only went to Paris Fashion Week. 
 
-But Luis Vuitton as his Sentiment is not that high, they tried to compensate by going to 2 Fashion Weeks as a strategy to augment visibility and thus the sentiment.
+But Luis Vuitton as his Sentiment is not that high, they tried to compensate by going to 2 Fashion Weeks as a strategy to augment visibility and thus the sentiment. (CAMBIAR...............)
 
 
 3. Has it always been like this?
